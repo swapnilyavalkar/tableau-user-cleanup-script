@@ -56,7 +56,7 @@ Here’s a quick overview of the key directories and files used by this script:
 ├── files/                     # Excel reports generated after cleanup
 ├── config.py                  # Configuration file for database connections
 ├── Variables.py               # Variables and constants used throughout the script
-└── main.py          # Main Python script
+└── main.py                    # Main Python script
 ```
 
 ## ⚙️ Configuration
@@ -65,6 +65,7 @@ Before running the script, configure the following files:
 
 1. **config.py**: Contains database connection parameters.
 2. **Variables.py**: Contains essential variables, such as Tableau credentials, SMTP settings, and other constants.
+3.  **Customize SQL Queries**: SQL queries can be customized based on your specific requirements. They are located in the `sql_queries/` directory.
 
 ## 🚨 Error Handling
 
@@ -82,11 +83,6 @@ The script includes robust error handling. If any operation fails, it is logged 
 2. **Install Dependencies**: Run `pip install -r requirements.txt` to install necessary packages.
 3. **Run the Script**: Execute the script using `python cleanup_script.py`.
 4. **Review Logs and Reports**: Check the `logs/` directory for logs and the `files/` directory for Excel reports.
-
-## 📝 Notes
-
-- **Customize SQL Queries**: SQL queries can be customized based on your specific requirements. They are located in the `sql_queries/` directory.
-- **Environment Variables**: Ensure all environment-specific variables are correctly set in `Variables.py`.
 
 ## 🛡️ License
 
