@@ -56,7 +56,7 @@ Here’s a quick overview of the key directories and files used by this script:
 ├── files/                     # Excel reports generated after cleanup
 ├── config.py                  # Configuration file for database connections
 ├── Variables.py               # Variables and constants used throughout the script
-└── cleanup_script.py          # Main Python script
+└── main.py          # Main Python script
 ```
 
 ## ⚙️ Configuration
