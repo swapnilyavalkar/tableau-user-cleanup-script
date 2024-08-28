@@ -1,0 +1,5 @@
+numpy
+pandas
+tableauserverclient
+psycopg2
+smtplib
